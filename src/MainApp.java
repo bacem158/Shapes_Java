@@ -25,7 +25,7 @@ public class MainApp {
 			FileWriter out = new FileWriter(file);
 			out.write(T1.draw());
 			out.close();
-			System.out.println("Triangle Created :)");
+			System.out.println("Square Created :)");
 			}catch (IOException e) {
 			System.out.println("file write error");
 			}
